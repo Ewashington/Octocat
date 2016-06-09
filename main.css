@@ -1,0 +1,44 @@
+img {
+    width: 200px;
+    display: inline;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    margin: /* Apply to all four sides */auto;
+    margin: 2%a uto;
+
+}
+
+/*div > div > ul > li > a > img {
+
+}*/
+
+ul.authors img {
+width: 15px;
+height: 15px;
+float: right;
+}
+
+.image-caption{
+  size: 10px;
+  width: 200px;
+  float: right;
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+
+.image-number{
+  float: left;
+  color: gray;
+
+}
+
+.octocat{
+  float: left;
+  border-radius: gray
+}
+
+li {
+  list-style: none;
+}
