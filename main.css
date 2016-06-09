@@ -1,12 +1,9 @@
+
 img {
-    width: 200px;
-    display: inline;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-    margin: /* Apply to all four sides */auto;
-    margin: 2%a uto;
+  width: 250px;
+  height: 250px;
+  margin: /* Apply to all four sides */auto;
+  margin: 2%a uto;
 
 }
 
@@ -14,31 +11,68 @@ img {
 
 }*/
 
-ul.authors img {
-width: 15px;
-height: 15px;
-float: right;
+.authors img {
+width: 20px;
+height: 20px;
+float:right;
+border: 0px;
+
 }
 
-.image-caption{
+.authors a {
+display: caption;
+color: gray;
+
+}
+
+.image-caption {
   size: 10px;
   width: 200px;
-  float: right;
   color: gray;
-  border-bottom: 1px solid gray;
-}
-
-.image-number{
-  float: left;
-  color: gray;
+  /*float: right;*/
+  padding-left: 10px;
+  display: inline;
+  text-decoration: none;
 
 }
 
-.octocat{
+.image-caption a {
+text-decoration: none;
+color: gray;
+float: left;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.image-caption span {
   float: left;
-  border-radius: gray
+}
+.image-number::before { content: "#"}
+
+.image-number {
+  float: left;
+  color: gray;
+}
+
+.image-footer {
+padding-bottom: 3px;
+
+}
+
+.octocat {
+  float: left;
+  margin: 5px;
+}
+
+.octocat li {
+  border: 1px solid gray;
+
+}
+
+.octocat img {
+  border: 1px solid gray;
 }
 
 li {
-  list-style: none;
+  list-style: none
 }
